@@ -1,7 +1,7 @@
-# Heading 1 Satvik Nayak
+# Satvik Nayak
 *CSE 15L Lab Reports*
 
-## Heading 2 About
+## About
 
 **Age:**  *18*
 **Home town:** *San Ramon, California*
