@@ -19,7 +19,7 @@
 ## Quick Access
 * [Gmail](http://gmail.com)
 * [Youtube](http://youtube.com)
-* [Tritonlink](http://students.ucsd.edu/))
+* [Tritonlink](http://students.ucsd.edu/)
 
 ## Favorite Coding Languages
 1. Python
