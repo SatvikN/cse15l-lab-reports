@@ -43,9 +43,17 @@
 **No Arguments**</br>
 <img width="266" alt="pic7" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/10e4e2d3-756e-497f-99aa-2f8690cd3534">
 * The intial working directory is `/home`
-* After running the cat command with no arguements it reads the user input from the keyboard and prints it back to the screen. The command gets terminated if the user types `ctrl + c`
+* After running the cat command with no arguements, the filesystem reads the user input from the keyboard and prints it back to the screen. The command gets terminated if the user types `ctrl + c`
 * This output is not an error and is the expected behaviour, however the cat command has a lot more functionality if it is used with some argument
 
 **Path to a Directory as Argument**</br>
+<img width="278" alt="pic8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/b3993009-6454-4a35-8c84-14a1a5868b45">
+* The intial working directory is `/home`
+* After running the cat command with a specified path to a directory as the argument, the filesystem says that the input is a directory and doesn't do anything else. This is because the cat command excpects a file that if can read and display to the user, but it can't perform these functions with a directory.
+* This output represents an error because the cat command isn't meant to be used with directories, only files
 
 **Path to a File as Argument**</br>
+<img width="724" alt="pic9" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/ec7721d5-071b-4666-b2c0-870315f192f8">
+* The intial working directory is `/home`
+* After running the cat command with a specified path to a file as the argument, the filesystem prints out the contents of the inputed file.
+* This output is not an error and is the expected behaviour
