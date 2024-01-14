@@ -1,4 +1,4 @@
-# Lab Report 1
+# CSE 15L Lab Report 1
 
 ## Command: cd
 
@@ -17,26 +17,26 @@
 **Path to a File as Argument**</br>
 <img width="420" alt="pic3" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/6692994a-f5c8-40e7-a52f-93a63af8f25a">
 * The intial working directory is `/home`
-* After running the cd command with a specified path to a file as the argument, the filesystem tells us that the inputed argument is not a directory and nothing changes.
+* After running the cd command with a specified path to a file as the argument, the filesystem tells us that the inputed argument is not a directory and the working directory does not change.
 * This output is an error because the command cd stands for change directory and you can't change the directory to a file
 
 ## Command: ls
 **No Arguments**</br>
-<img width="376" alt="pic4" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/fc5038d1-fcb7-4c6b-a9ba-d5b5e605cd84">
+<img width="373" alt="pic4" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/69cbeede-2ca1-4aac-9e02-0e7b7972291a">
 * The intial working directory is `/home/lecture1`
 * After running the ls command with no arguments, the filesystem displays all of the files and subdirectories inside the current working directory
 * This output is not an error and is the expected behaviour
 
 **Path to a Directory as Argument**</br>
-<img width="359" alt="pic5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/6d1d74e7-85ab-445c-9dcd-2262ceb3a4e2">
+<img width="356" alt="pic5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/9ebb4387-474e-45b2-88d5-2cc3315a44e9">
 * The intial working directory is `/home/lecture1`
 * After running the ls command with a specified path to a directory as the argument, the filesystem displays all of the files and subdirectories within the specified directory
 * This output is not an error and is the expected behaviour
 
 **Path to a File as Argument**</br>
-<img width="358" alt="pic6" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/67c6ed42-c199-4586-aa5a-1ccf73541a7b">
+<img width="358" alt="image" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/0a1ecfcf-5de5-400c-8fb6-8235c2232858">
 * The intial working directory is `/home`
-* After running the ls command with a specified path to a file as the argument, the filesystem displays information about the given files. In this case the filesystem prints out the filename.
+* After running the ls command with a specified path to a file as the argument, the filesystem displays information about the given files. In this case the filesystem prints out the path to the file and the filename.
 * This output is not an error and is the expected behaviour
 
 ## Command: cat
@@ -47,7 +47,7 @@
 * This output is not an error and is the expected behaviour, however the cat command has a lot more functionality if it is used with some argument
 
 **Path to a Directory as Argument**</br>
-<img width="278" alt="pic8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/b3993009-6454-4a35-8c84-14a1a5868b45">
+<img width="358" alt="pic8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/2bb1d0c8-7541-447d-abe0-3ce3d53f0a46">
 * The intial working directory is `/home`
 * After running the cat command with a specified path to a directory as the argument, the filesystem says that the input is a directory and doesn't do anything else. This is because the cat command excpects a file that if can read and display to the user, but it can't perform these functions with a directory.
 * This output represents an error because the cat command isn't meant to be used with directories, only files
