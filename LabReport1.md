@@ -47,13 +47,13 @@
 * This output is not an error and is the expected behaviour, however the cat command has a lot more functionality if it is used with some argument
 
 **Path to a Directory as Argument**</br>
-<img width="358" alt="pic8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/2bb1d0c8-7541-447d-abe0-3ce3d53f0a46">
+<img width="356" alt="pic8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/2263d85f-d139-4b24-a946-1b6979e02a15">
 * The intial working directory is `/home`
 * After running the cat command with a specified path to a directory as the argument, the filesystem says that the input is a directory and doesn't do anything else. This is because the cat command excpects a file that if can read and display to the user, but it can't perform these functions with a directory.
 * This output represents an error because the cat command isn't meant to be used with directories, only files
 
 **Path to a File as Argument**</br>
-<img width="724" alt="pic9" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/ec7721d5-071b-4666-b2c0-870315f192f8">
+<img width="721" alt="pic9" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/7d7a5e04-7eef-4744-901e-1069b8619126">
 * The intial working directory is `/home`
 * After running the cat command with a specified path to a file as the argument, the filesystem prints out the contents of the inputed file.
 * This output is not an error and is the expected behaviour
