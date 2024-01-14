@@ -3,7 +3,7 @@
 ## Command: cd
 
 **No Arguments**</br>
-<img width="258" alt="pic1" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/fab1bc42-157f-426e-a964-9443c61fa1f6">
+<img width="259" alt="pic1" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/c8f7b2dd-7905-4f5e-8e79-66d0d04a3aa0">
 * The intial working directory is `/home/lecture1`
 * After running the cd command with no arguments the filesystem's working directory gets reset back to the home directory which is just `/home`. This is because cd attempts to change the directory and since no directory is specified it changes it back to the home directory.
 * This output is not an error and is the expected behaviour.
