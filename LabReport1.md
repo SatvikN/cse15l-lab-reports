@@ -43,6 +43,9 @@
 **No Arguments**</br>
 <img width="266" alt="pic7" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/10e4e2d3-756e-497f-99aa-2f8690cd3534">
 * The intial working directory is /home
-* After running the cat command with no arguements it
+* After running the cat command with no arguements it reads the user input from the keyboard and prints it back to the screen. The command gets terminated if the user types `ctrl + c`
+* This output is not an error and is the expected behaviour, however the cat command has a lot more functionality if it is used with some argument
+
 **Path to a Directory as Argument**</br>
+
 **Path to a File as Argument**</br>
