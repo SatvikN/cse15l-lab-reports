@@ -53,7 +53,7 @@
 * This output represents an error because the cat command isn't meant to be used with directories.
 
 **Path to a File as Argument**\
-<img width="721" alt="pic9" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/7d7a5e04-7eef-4744-901e-1069b8619126">
+<img width="724" alt="pic9" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/98fa76d0-065d-4e11-aa4b-d8e2bac1b5c1">
 * The intial working directory is `/home`
 * After running the cat command with a specified path to a file as the argument, the filesystem prints out the contents of the inputed file.
 * This output is not an error and is the expected behaviour.
