@@ -22,11 +22,11 @@
 
 ## Part 2 - SSH Keys
 
-**Absolute path to the private key**<br /><br />
+**Absolute path to the private key (on my machine)**<br /><br />
 <img width="420" alt="pic4" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/432a1018-1285-4c7e-abc7-da71e666536c">
 
-**Absolute path to the public key**<br /><br />
-<img width="450" alt="pic5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/ad90827c-7c5b-4283-b781-946d29f8487d">
+**Absolute path to the public key (on ieng6)**<br /><br />
+<img width="478" alt="pic5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/7d12312d-7205-49fb-91d7-47eff4b41f82">
 
 **Logging into `ieng6` account without password**<br /><br />
 <img width="752" alt="pic6" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/d612ecfe-a2cc-4297-b801-518e7f3ce870">
