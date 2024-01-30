@@ -1,6 +1,6 @@
 # Lab Report 2
 
-## Part 1
+## Part 1 - ChatServer
 
 **Code for ChatServer**<br /><br />
 ![pic1](https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/7b1d1a59-d871-487e-a658-4f837e41fd71)
@@ -20,6 +20,19 @@
 * The handleRequest method also has only argument which is the url. The url has a value of `https://0-0-0-0-4000-bnbfsj00dbk4k5qv8e2r8mtiho.us.edusercontent.com/add-message?s=Hi!%20How%20are%20you%20doing&user=snayak` which was entered into the web browser. The `%20` text found in the url represents spaces. One fields in the Handler class is `String entireString` which holds the text of all the past chats entered into the web page.
 * This requests made to the web server has the effect of appending an additiona message to `entireString` based on the text in the url.
 
-## Part 2
+## Part 2 - SSH Keys
 
-## Part 3
+**Absolute path to the private key**
+<img width="420" alt="pic4" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/432a1018-1285-4c7e-abc7-da71e666536c">
+
+**Absolute path to the public key**
+<img width="450" alt="pic5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/ad90827c-7c5b-4283-b781-946d29f8487d">
+
+**Logging into `ieng6` account without password**
+<img width="752" alt="pic6" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/d612ecfe-a2cc-4297-b801-518e7f3ce870">
+
+
+
+
+
+## Part 3 - Reflection
