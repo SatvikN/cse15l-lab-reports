@@ -14,9 +14,15 @@ How do the values of any relevant fields of the class change from this specific 
 
 * First, the main method in the ChatServer class is called and later the handleRequest method gets called.
 * The arguments for the main method are only a single command line argument that is provided by the user. This argument represents the port that the server will be created on. The only relavent field in the ChatServer class is the `int` representing the port. It has a value of 4000.
-* The handleRequest method also has only argument which is the url. The url has a value of `https://0-0-0-0-4000-bnbfsj00dbk4k5qv8e2r8mtiho.us.edusercontent.com/add-message?s=Hello!&user=jpolitz` which was entered into the web browser.
+* The handleRequest method also has only argument which is the url. The url has a value of `https://0-0-0-0-4000-bnbfsj00dbk4k5qv8e2r8mtiho.us.edusercontent.com/add-message?s=Hello!&user=jpolitz` which was entered into the web browser. One important fields in the Handler class is `String entireString`. This field holds the text of all the past chats that were entered into the web page.
+* This request made to the web server has the effect of appending a new message to `entireString` based on the text in the url.
 
 <img width="1440" alt="pic3" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/ea8ca23a-79b3-4132-9542-60c2c1eb664a">
+
+* First, the main method in the ChatServer class is called and then the handleRequest method gets called.
+* The arguments for the main method are only a single command line argument that is provided by the user. This argument represents the port that the server for the server. The value of `port` remains 4000 because that is the value assigned to it when the web server was started.
+* The handleRequest method also has only argument which is the url. The url has a value of `https://0-0-0-0-4000-bnbfsj00dbk4k5qv8e2r8mtiho.us.edusercontent.com/add-message?s=Hi!%20How%20are%20you%20doing&user=snayak` which was entered into the web browser. The `%20` text found in the url represents spaces. One fields in the Handler class is `String entireString` which holds the text of all the past chats entered into the web page.
+* This requests made to the web server has the effect of appending an additiona message to `entireString` based on the text in the url.
 
 ## Part 2
 
