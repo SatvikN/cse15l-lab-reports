@@ -46,4 +46,7 @@ static void reverseInPlace(int[] arr){
 }
 ```
 
+Explanation
+The method was only properly copying values for half the array. This is because the method is iterating through the entire array so for the first half it copies the elemnts from the end to the front, however for the second half the method is copying the new elements from the front rather than the original elements. The proper implementation would be to swap the values on the 2 ends of the array and only iterate through half of the list.
+
 ## Part 2 - Researching Commands
