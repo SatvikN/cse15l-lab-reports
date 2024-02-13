@@ -23,7 +23,7 @@ public void testReverseInPlace() {
 
 **The Symptom**
 
-**The bug**
+**The bug**<br/>
 Before
 ```
 static void reverseInPlace(int[] arr) {
