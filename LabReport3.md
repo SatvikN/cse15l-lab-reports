@@ -60,13 +60,28 @@ $ grep "DNA" *.txt > grep-output.txt
 $ wc grep-output.txt
     5993   56210  487525 grep-output.txt
 ```
-*
-working directory: ./docsearch/technical/biomed
+* The command searchs for the pattern "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file grep-output.txt
+* This is useful because we can find out how many times "DNA" occurs in all the text files in the biomed directoy. Based on the output we know that "DNA" was found 5993 times in the directory.
+  
+working directory: ./docsearch/technical
 ```
-$ grep "DNA" *.txt > grep-output.txt
-$ wc grep-output.txt
-   20416  193374 1635800 grep-output.txt
+$ grep "policy" ./government/media/*
+./government/media/Anthem_Payout.txt:Anthem Inc., issued to policyholders as part of the insurer's
+./government/media/Anthem_Payout.txt:that, to 1 million eligible policyholders in four states. About
+./government/media/Anthem_Payout.txt:from a mutual company, owned by its policyholders, to a publicly
+./government/media/Anthem_Payout.txt:eligibility policy for Kentucky Department for Medicaid Services.
+./government/media/Anthem_Payout.txt:premiums in advance on Medicare supplement health-insurance policy
+./government/media/Coup_Reshapes_Legal_Aid.txt:policy wonk in Iwasaki's outfit, agreed.
+./government/media/Coup_Reshapes_Legal_Aid.txt:Dudovitz's desire to spend money influencing social policy and
+./government/media/Coup_Reshapes_Legal_Aid.txt:care, policy advocacy, homelessness, domestic-violence assistance,
+./government/media/Domestic_Violence_Ruling.txt:director of family violence law and policy for the National Council
+./government/media/Farm_workers.txt:policy requires that incidents of pesticide exposure be reported
+./government/media/NJ_Legal_Services.txt:On the policy side, Atlas and Thorne contend that the combined
+./government/media/Survey.txt:the nation in its regulation, policy development and oversight
+./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
+./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
+
 
 *-w Whole words*
 
