@@ -21,8 +21,9 @@ public void testReverseInPlace(){
 }
 ```
 
-**The Symptom**
-<img width="895" alt="Screenshot 2024-02-13 at 12 20 01 PM" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/af287562-553e-42e9-adf1-d6a362d148c6">
+**The Symptom**<br/>
+<img width="895" alt="Screenshot 2024-02-13 at 12 20 01 PM" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/751f2508-5bd3-4b29-8d7d-4fa6679c79bb">
+
 
 **The bug**<br/>
 Before
