@@ -46,7 +46,28 @@ static void reverseInPlace(int[] arr){
 }
 ```
 
-Explanation
+Explanation<br/>
 The method was only properly copying values for half the array. This is because the method is iterating through the entire array so for the first half it copies the elemnts from the end to the front, however for the second half the method is copying the new elements from the front rather than the original elements. The proper implementation would be to swap the values on the 2 ends of the array and only iterate through half of the list.
 
 ## Part 2 - Researching Commands
+**Command: grep**
+
+*-i Case sensitive*
+*
+working directory: ./docsearch/technical/biomed
+```
+$ grep "DNA" *.txt > grep-output.txt
+$ wc grep-output.txt
+    5993   56210  487525 grep-output.txt
+```
+*
+working directory: ./docsearch/technical/biomed
+```
+$ grep "DNA" *.txt > grep-output.txt
+$ wc grep-output.txt
+   20416  193374 1635800 grep-output.txt
+```
+
+*-w Whole words*
+
+*-r Recursive search*
