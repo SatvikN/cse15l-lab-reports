@@ -54,16 +54,16 @@ The method was only properly copying values for half the array. This is because 
 
 *-i Case sensitive*
 *
-working directory: ./docsearch/technical/biomed
+working directory: `./docsearch/technical/biomed`
 ```
 $ grep "DNA" *.txt > grep-output.txt
 $ wc grep-output.txt
     5993   56210  487525 grep-output.txt
 ```
-* The command searchs for the pattern "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file grep-output.txt
-* This is useful because we can find out how many times "DNA" occurs in all the text files in the biomed directoy. Based on the output we know that "DNA" was found 5993 times in the directory.
+* The command searchs for the pattern "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file `grep-output.txt`
+* This is useful because we can find out how many times "DNA" occurs in all the text files in the `biomed` directoy. Based on the output we know that "DNA" was found 5993 times in the directory.
   
-working directory: ./docsearch/technical
+working directory: `./docsearch/technical`
 ```
 $ grep "policy" ./government/media/*
 ./government/media/Anthem_Payout.txt:Anthem Inc., issued to policyholders as part of the insurer's
@@ -82,9 +82,14 @@ $ grep "policy" ./government/media/*
 ./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
 * The command searchs for the pattern "policy" in all files within the media directory.
-* * This is useful because it shows us all the 14 times "policy" was in files directly within the './government/media/' directory. However, it will not search within subdirectories of './government/media/'
+* * This is useful because it shows us all the 14 times "policy" was in files directly within the `./government/media/` directory. However, it will not search within subdirectories of './government/media/'.
 
 
 *-w Whole words*
-
+working directory: `./docsearch/technical/biomed`
+```
+$ grep -w "DNA" *.txt > grep-output.txt
+$ wc grep-output.txt
+    3723   35275  300548 grep-output.txt
+```
 *-r Recursive search*
