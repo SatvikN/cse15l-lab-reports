@@ -113,7 +113,6 @@ $ grep -w "policy" ./government/media/*
 * This is useful because it shows us all the 11 times "policy" was in files directly within the directory without being a substring of another word.
 
 ***-c Word count***
-
 working directory: `./docsearch/technical`
 ```
 $ grep -c "carbon" ./government/Env_Prot_Agen/*
