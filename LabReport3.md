@@ -52,19 +52,20 @@ The method was only properly copying values for half the array. This is because 
 ## Part 2 - Researching Commands
 **Command: grep**
 
-***-i Case sensitive***<br/>
+***-i Ignoring case***<br/>
 working directory: `./docsearch/technical/biomed`
 ```
-$ grep "DNA" *.txt > grep-output.txt
+$ grep -i "dna" *.txt > grep-output.txt
 $ wc grep-output.txt
-    5993   56210  487525 grep-output.txt
+    6141   57570  499162 grep-output.txt
 ```
-* The command searches for the pattern "DNA" in all files with the `.txt` extension within the current working directory. It then stores the output in the file `grep-output.txt`.
-* This is useful because we can find out how many times "DNA" occurs in all the text files in the `biomed` directoy. Based on the output we know that "DNA" was found 5993 times in the directory.
+* The command searches for the pattern "dna" in all files with the `.txt` extension within the current working directory ignoring the case of the text. It then stores the output in the file `grep-output.txt`.
+* This is useful because we can find out how many times "dna" occurs in all the text files in the `biomed` directoy. Based on the output we know that "dna" was found 6141 times in the directory.
   
 working directory: `./docsearch/technical`
 ```
-$ grep "policy" ./government/media/*
+$ grep  -i "policy" ./government/media/*
+./government/media/Anthem_Payout.txt:Poorest Policyholders could lose Medicaid, other Benefits
 ./government/media/Anthem_Payout.txt:Anthem Inc., issued to policyholders as part of the insurer's
 ./government/media/Anthem_Payout.txt:that, to 1 million eligible policyholders in four states. About
 ./government/media/Anthem_Payout.txt:from a mutual company, owned by its policyholders, to a publicly
@@ -80,8 +81,8 @@ $ grep "policy" ./government/media/*
 ./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
 ./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
-* The command searches for the pattern "policy" in all files within the `./government/media/` directory.
-* This is useful because it shows us all the 14 times "policy" was in files directly within the `./government/media/` directory. However, it will not search within subdirectories of './government/media/'.
+* The command searches for the pattern "policy" in all files within the `./government/media/` directory while ignoring the case of the text.
+* This is useful because it shows us all the 15 times "policy" was in files directly within the `./government/media/` directory. However, it will not search within subdirectories of './government/media/'.
 
 
 ***-w Whole words***<br/>
