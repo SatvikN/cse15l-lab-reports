@@ -60,7 +60,7 @@ $ grep "DNA" *.txt > grep-output.txt
 $ wc grep-output.txt
     5993   56210  487525 grep-output.txt
 ```
-* The command searchs for the pattern "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file `grep-output.txt`
+* The command searches for the pattern "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file `grep-output.txt`.
 * This is useful because we can find out how many times "DNA" occurs in all the text files in the `biomed` directoy. Based on the output we know that "DNA" was found 5993 times in the directory.
   
 working directory: `./docsearch/technical`
@@ -92,4 +92,25 @@ $ grep -w "DNA" *.txt > grep-output.txt
 $ wc grep-output.txt
     3723   35275  300548 grep-output.txt
 ```
+* The command searches for the exact word "DNA" in all files with the .txt extension within the current working directory. It then stores the output in the file `grep-output.txt`.
+* This is useful because we can find out how many times the word "DNA" occurs not including when it is a substring of another word. Based on the output we know that "DNA" was found 3723 times in the `biomed` directory.
+
+working directory: `./docsearch/technical`
+```
+grep -w "policy" ./government/media/*  
+./government/media/Anthem_Payout.txt:eligibility policy for Kentucky Department for Medicaid Services.
+./government/media/Anthem_Payout.txt:premiums in advance on Medicare supplement health-insurance policy
+./government/media/Coup_Reshapes_Legal_Aid.txt:policy wonk in Iwasaki's outfit, agreed.
+./government/media/Coup_Reshapes_Legal_Aid.txt:Dudovitz's desire to spend money influencing social policy and
+./government/media/Coup_Reshapes_Legal_Aid.txt:care, policy advocacy, homelessness, domestic-violence assistance,
+./government/media/Domestic_Violence_Ruling.txt:director of family violence law and policy for the National Council
+./government/media/Farm_workers.txt:policy requires that incidents of pesticide exposure be reported
+./government/media/NJ_Legal_Services.txt:On the policy side, Atlas and Thorne contend that the combined
+./government/media/Survey.txt:the nation in its regulation, policy development and oversight
+./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
+./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
+```
+* The command searchs for the exact word "policy" in all files within the media directory.
+* This is useful because it shows us all the 11 times "policy" was in files directly within the directory without being a substring of another word.
+
 *-r Recursive search*
