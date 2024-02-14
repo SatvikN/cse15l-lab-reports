@@ -80,11 +80,11 @@ $ grep "policy" ./government/media/*
 ./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
 ./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
-* The command searches for the pattern "policy" in all files within the media directory.
+* The command searches for the pattern "policy" in all files within the `./government/media/` directory.
 * This is useful because it shows us all the 14 times "policy" was in files directly within the `./government/media/` directory. However, it will not search within subdirectories of './government/media/'.
 
 
-***-w Whole words***
+***-w Whole words***<br/>
 working directory: `./docsearch/technical/biomed`
 ```
 $ grep -w "DNA" *.txt > grep-output.txt
@@ -109,10 +109,10 @@ $ grep -w "policy" ./government/media/*
 ./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
 ./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
-* The command searches for the exact word "policy" in all files within the `media` directory.
+* The command searches for the exact word "policy" in all files within the `./government/media/` directory.
 * This is useful because it shows us all the 11 times "policy" was in files directly within the directory without being a substring of another word.
 
-***-c Word count***
+***-c Word count***<br/>
 working directory: `./docsearch/technical`
 ```
 $ grep -c "carbon" ./government/Env_Prot_Agen/*
@@ -156,4 +156,4 @@ chapter-9.txt:0
 preface.txt:0
 ```
 * The command counts the number of matching lines for the pattern "international" in all files within the current working directory. However, if "international" appears twice on a single line it only counts as 1 match.
-* This is useful because we can find out how many lines contain the word "international" within a directory. This tells us how prevalent a word is within a each file in a directory.
+* This is useful because we can find out how many lines contain the word "international" within a directory and how prevalent the word is within each file.
