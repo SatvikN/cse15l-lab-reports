@@ -81,6 +81,8 @@ $ grep "policy" ./government/media/*
 ./government/media/pro_bono_efforts.txt:helped create the firm's policy. "In fact, you're going to be
 ./government/media/pro_bono_efforts.txt:policy narrows the definition to providing legal advice or
 ```
+* The command searchs for the pattern "policy" in all files within the media directory.
+* * This is useful because it shows us all the 14 times "policy" was in files directly within the './government/media/' directory. However, it will not search within subdirectories of './government/media/'
 
 
 *-w Whole words*
