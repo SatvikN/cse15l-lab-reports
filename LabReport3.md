@@ -53,7 +53,7 @@ The method was only properly copying values for half the array. This is because 
 **Command: grep**
 
 ***-i Ignoring case***
-* Source: https://man7.org/linux/man-pages/man1/grep.1.html
+* Source: <https://man7.org/linux/man-pages/man1/grep.1.html>
 
 working directory: `./docsearch/technical/biomed`
 ```
@@ -88,7 +88,7 @@ $ grep  -i "policy" ./government/media/*
 
 
 ***-w Whole words***
-* Source: https://man7.org/linux/man-pages/man1/grep.1.html
+* Source: <https://man7.org/linux/man-pages/man1/grep.1.html>
 
 working directory: `./docsearch/technical/biomed`
 ```
@@ -118,7 +118,7 @@ $ grep -w "policy" ./government/media/*
 * This is useful because it shows us all the 11 times "policy" was in files directly within the directory without being a substring of another word.
 
 ***-c Word count***
-* Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+* Source: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
 
 working directory: `./docsearch/technical`
 ```
