@@ -139,7 +139,7 @@ $ grep -c "carbon" ./government/Env_Prot_Agen/*
 ./government/Env_Prot_Agen/tech_sectiong.txt:1
 ```
 * The command counts the number of matching lines for the pattern "carbon" in all files within the `./government/Env_Prot_Agen/` directory. However, if "carbon" appears twice on a single line it only counts as 1 match.
-* This is useful because we can find out how many lines contain the word "DNA" within a directory. This displays the information in a simpler way rather then printing out every instance the word is found. Using this we can easliy find how prevalent a word is within a directory and which files have the most occurrences of the word.
+* This is useful because we can find out how many lines contain the word "carbon" within a directory. This displays the information in a simpler way rather then printing out every instance the word is found. Using this we can easliy find how prevalent a word is within a directory and which files have the most occurrences of the word.
 
 working directory: `./docsearch/technical/911report`
 ```
@@ -164,3 +164,27 @@ preface.txt:0
 ```
 * The command counts the number of matching lines for the pattern "international" in all files within the current working directory. However, if "international" appears twice on a single line it only counts as 1 match.
 * This is useful because we can find out how many lines contain the word "international" within a directory and how prevalent the word is in each file.
+
+***`-n` Word count***
+* Source: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
+
+working directory: `./docsearch/technical`
+```
+$ grep -n "carbon" ./government/Env_Prot_Agen/*
+#
+#
+#
+```
+* The command displays the matching lines and the line numbers for the pattern "carbon" in all files within the `./government/Env_Prot_Agen/` directory.
+* This is useful because we can find out which lines contain the word "carbon" and exaclty where in the file it is located. Using this we can better understand the context of every instance of "carbon" within the `./government/Env_Prot_Agen/` directory. 
+
+working directory: `./docsearch/technical/911report`
+```
+$ grep -n "international" *.txt
+#
+#
+#
+```
+
+* The command displays the matching lines and the line numbers for the pattern "international" in all files within the current working directory. 
+* This is useful because we can find out what lines contain the word "international" for all files within a directory.
