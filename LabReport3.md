@@ -187,4 +187,4 @@ $ grep -n "international" *.txt
 ```
 
 * The command displays the matching lines and the line numbers for the pattern "international" in all files within the current working directory. 
-* This is useful because we can find out what lines contain the word "international" for all files within a directory.
+* This is useful because we can find out what lines contain the word "international" and the its position relative to its file for all the files within a directory.
