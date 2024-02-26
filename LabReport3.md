@@ -213,4 +213,4 @@ chapter-6.txt:1567:            The Bush administration did not develop new diplo
 ```
 
 * The command displays the matching lines and the line numbers for the pattern "diplomatic" in all files within the current working directory. 
-* This is useful because we can find out what lines contain the word "diplomatic" and the its position relative to its file for all the files within a directory.
+* This is useful because we can find out all the lines in a directory that contain the word "diplomatic" and the line's position relative to its file.
