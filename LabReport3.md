@@ -165,7 +165,7 @@ preface.txt:0
 * The command counts the number of matching lines for the pattern "international" in all files within the current working directory. However, if "international" appears twice on a single line it only counts as 1 match.
 * This is useful because we can find out how many lines contain the word "international" within a directory and how prevalent the word is in each file.
 
-***`-n` Word count***
+***`-n` Line numbers***
 * Source: <https://www.geeksforgeeks.org/grep-command-in-unixlinux/>
 
 working directory: `./docsearch/technical`
