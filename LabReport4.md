@@ -5,8 +5,8 @@
 * The command `ssh s5nayak@ieng6-201.ucsd.edu` was 1 up in the search history so I accessed it using the up arrow.
 
 ## Step 5: Clone fork of the repo
-**Keys pressed:**
-*
+**Keys pressed:** `g i t <space> c l o <tab> Command-V` 
+* Pressing `<tab>` completed the `clone` command and added a space after. The the `SSH` URL was already copied into my clipboard using my mouse so I just pasted it in using `Command-V`.
 
 ## Step 6: Run the tests (fail)
 **Keys pressed:**
