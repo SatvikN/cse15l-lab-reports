@@ -1,7 +1,7 @@
 # Lab Report 4
 
 ## Step 4: Log into ieng6
-**Keys pressed: **
+**Keys pressed:** <up>
 
 ## Step 5: Clone fork of the repo
 
