@@ -23,7 +23,7 @@
 * The command `bash test.sh` was 2 up in the search history on ieng6 so I used the up arrow key to access it.
 
 ## Step 9: Commit and push
-**Keys pressed:** `g i t <space> a d <tab> . <enter>`, `g i t <sapce> c o m <tab> <space> - m <space> Shift-" e d i t s Shift-" <enter>`, `g i t <space> p u s h <enter>`
+**Keys pressed:** `g i t <space> a d <tab> . <enter>`, `g i t <sapce> c o m <tab> - m <space> Shift-" e d i t s Shift-" <enter>`, `g i t <space> p u s h <enter>`
 * I used the `git add .` command to move all the modified files to the `git` staging area. Since there is only 1 `git` subcommand that begins with _ad_ I was able to finish the command and add a space just by pressing `<tab>`.
 * After moving any modifications to the staging area, I used the `git commit` command to record the changes within the repository. Since there is only 1 `git` subcommand that begins with _com_ I was able to finish the word and add a space by pressing `<tab>`. I also added a commit message by adding `-m "edits"` to the end of the `git commit` command.
 * Finally, I used the `git push` command to upload the commit back to a remote repository.
