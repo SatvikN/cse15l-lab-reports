@@ -20,7 +20,7 @@
 
 ## Step 8: Run the tests (pass)
 **Keys pressed:** `<up> <up> <enter>`
-* The command `bash test.sh` was 2 up in the search history on ieng6 so I used the up arrow key to access it.
+* The command `bash test.sh` was 2 up in the search history on ieng6 so I used the up arrow key to access it and rerun the command.
 
 ## Step 9: Commit and push
 **Keys pressed:** `g i t <space> a d <tab> . <enter>`, `g i t <sapce> c o m <tab> - m <space> Shift-" e d i t s Shift-" <enter>`, `g i t <space> p u s h <enter>`
