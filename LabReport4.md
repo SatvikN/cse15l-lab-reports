@@ -24,6 +24,7 @@
 * In order to edit the code file to fix the failing test I first had to use the `vim` command. I could type the file name by typing the first letter _L_ and then using tab to write out the other characters. However, there are 2 files in the `lab7` that begin with the letter _L_: `ListExamples.java` and `ListExamplesTests.java`. Tab filled in the idential characters until it said _ListExamples_. Since the desired file is `ListExamples.java` I added a . to differentiate between the 2 possible files. Then I used `<tab>` to complete the name.
 <img width="357" alt="pic 4" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/15eb4f60-9030-4566-b376-030e85fd613e">
 
+
 * Next I used the command `329e` in `vim`'s normal mode to move the cursor to the end of the 329th word which was the `index1` that had to be edited to `index2`. Pressing the `x` key in normal mode deleted the character under the cursor which was _1_. Then I pressed the `i` key to switch to `vim`'s insert mode and then pressed `2` to change the code to `index2`. In order to save the edits, I then pressed `<esc>` to switch back to normal mode and used the command `:wq` to write my edits and exit `vim` editor.
 <img width="576" alt="pic 5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/72c2acd0-c4c8-4ec9-b2ed-8821d3aa5f3f">
 
