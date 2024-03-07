@@ -2,7 +2,7 @@
 
 ## Step 4: Log into ieng6
 **Keys pressed:** `<up> <enter>`
-* The command `ssh s5nayak@ieng6-201.ucsd.edu` was 1 up in the search history so I accessed it using the up arrow.<br/><br/><br/>
+* The command `ssh s5nayak@ieng6-201.ucsd.edu` was 1 up in the search history so I accessed it using the up arrow.
 <img width="674" alt="pic 1" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/8b7905fe-9cd3-411f-85fc-3b655cbdd5bc">
 
 
