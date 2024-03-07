@@ -39,5 +39,4 @@
 * I used the `git add .` command to move all the modified files to the `git` staging area. Since there is only 1 `git` subcommand that begins with _ad_ I was able to finish the command and add a space just by pressing `<tab>`.
 * After moving any modifications to the staging area, I used the `git commit` command to record the changes within the repository. Since there is only 1 `git` subcommand that begins with _com_ I was able to finish the word and add a space by pressing `<tab>`. I also added a commit message by adding `-m "edits"` to the end of the `git commit` command.
 * Finally, I used the `git push` command to upload the commit back to a remote repository.
-<img width="568" alt="pic 7" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/33d02dfd-f687-4d5d-96e8-04beab68beef">
-
+<img width="495" alt="pic 7" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/2dbdfefe-b8a5-4980-9b7f-3dcf0c6ad1fc">
