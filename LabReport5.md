@@ -55,3 +55,6 @@ Edits to fix the bug:<br/>
 * If you don't use `-cp` in the `java` function, then the it will use the default class path, not the path stored in `CPATH`. So `-cp` needs to be used so that it looks for the `.jar` file in the `/lib` directory.
 
 ## Reflection
+Some things I learn from lab during the second half of this quarter are how to use `vim` and `nano` to moddify files directly from the terminal without needing an external application. The vast functionality and commands within these editor make them very efficient to use and they can help you make quick edits when working on a project.
+
+Another interesting I learned during lab is that Github deprecated the use of passwords for authentication for command-line processes. This was done in an attempt to increase security so now Github requires the use of ssh keys in order to authenticate operations you perform.
