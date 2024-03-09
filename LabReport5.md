@@ -34,6 +34,11 @@ The necessary file structure you must have for the relavent files related to thi
     - `junit-4.13.2.jar`
 
 Contents of each file before fixing the bug:<br/>
+`grade.sh`
+<img width="468" alt="pic 5" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/5525ec7b-dc80-484d-949a-c8c35cc597c7">
+
+`GradeServer.java`
+<img width="429" alt="pic 8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/6b4eb9c8-e778-4c84-a184-4ccbbc116a6b">
 
 Command lines run to trigger the bug:<br/>
 * `java GradeServer 4040`
@@ -45,7 +50,8 @@ Command lines run to trigger the bug:<br/>
   * `repo=https://github.com/ucsd-cse15l-f22/list-methods-corrected` specifies the query sent to the server. Here, the parameter `repo` is being assigned the value `https://github.com/ucsd-cse15l-f22/list-methods-corrected`
 
 Edits to fix the bug:<br/>
-<img width="429" alt="pic 8" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/6b4eb9c8-e778-4c84-a184-4ccbbc116a6b">
-
+* The last line in the `grade.sh` shell script needs to be changed from `java org.junit.runner.JUnitCore TestListExamples` to `java -cp $CPATH org.junit.runner.JUnitCore TestListExamples`
+* Buy using `-cp $CPATH` it tells Java to use the specific classpath defined in the variable `CPATH`.
+* If you don't use `-cp` in the `java` function, then the it will use the default class path, not the path stored in `CPATH`. So `-cp` needs to be used so that it looks for the `.jar` file in the `/lib` directory.
 
 ## Reflection
