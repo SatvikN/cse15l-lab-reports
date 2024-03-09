@@ -19,7 +19,7 @@ You are correct that the error is at the end of your `grade.sh` file, and specif
 **Student Response**<br/>
 Thanks for the information. I believe I attempted to fix the bug by including `$CPATH` as an argument to the `java` function. I have now changed the last line to be `java $CPATH org.junit.runner.JUnitCore TestListExamples`. Since `CPATH` stores the path to the `.jar` files: `.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`, the `java` command should now know where to find the `.jar` files.
 
-I am still recieving an error, but it has changed slightly. The bug that I have been trying to fix is that the `java` function is unable to find the classpath that contains the necessary libraries to executing the Java code to run the tests. This is because it is not correctly interpreting the `CPATH` variable that contains the path to the class. After my attempted fix, the `java` function is now looking for the corrrect path: `.:lib.hamcrest-core-1.3.jar:lib.junit-4.13.2.jar`. However, it is still unable to find the nexessary `.jar` files.<br/><br/>
+I am still recieving an error, but it has changed slightly. The bug that I have been trying to fix is that the `java` function is unable to find the classpath that contains the necessary libraries to executing the Java code to run the tests. This is because it is not correctly interpreting the `CPATH` variable that contains the path to the class. After my attempted fix, the `java` function is now looking for the corrrect path: `.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`. However, it is still unable to find the nexessary `.jar` files.<br/><br/>
 
 <img width="939" alt="pic 6" src="https://github.com/SatvikN/cse15l-lab-reports/assets/108087443/f45f4c40-eb59-4ca7-8c01-d7583ed30ed8"><br/>
 
